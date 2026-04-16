@@ -20,7 +20,7 @@ Developer tools for the terminal, AI, and cloud infrastructure.
 
 | Project | Description | Quick Start |
 |---------|-------------|-------------|
-| [mcph](https://github.com/YawLabs/mcph) | One install, all your MCP servers. The local agent for mcp.hosting — smart routing, auto-import, health-aware dispatch. | `npx @yawlabs/mcph` |
+| [mcph](https://github.com/YawLabs/mcph) | One install, all your MCP servers. The local agent for mcp.hosting — smart routing, auto-import, health-aware dispatch. | `npx @yawlabs/mcph install <claude-code\|claude-desktop\|cursor\|vscode>` |
 | [mcp-compliance](https://github.com/YawLabs/mcp-compliance) | Test any MCP server for spec compliance. 88 tests, A-F grading. | `npx @yawlabs/mcp-compliance` |
 | [ctxlint](https://github.com/YawLabs/ctxlint) | Lint AI context files (CLAUDE.md, .cursorrules, AGENTS.md) against your codebase. | `npx @yawlabs/ctxlint` |
 | [tailscale-mcp](https://github.com/YawLabs/tailscale-mcp) | MCP server for managing Tailscale tailnets. 99 tools, HuJSON-safe ACLs. | `npx @yawlabs/tailscale-mcp` |
@@ -31,7 +31,7 @@ Developer tools for the terminal, AI, and cloud infrastructure.
 | [electron-optimize](https://github.com/YawLabs/electron-optimize) | Drop-in optimization utilities for Electron apps. | `npm i @yawlabs/electron-optimize` |
 | [caddy-mcp](https://github.com/YawLabs/caddy-mcp) | MCP server for managing Caddy web server from AI assistants. | `npx @yawlabs/caddy-mcp` |
 | [ai-pricing](https://github.com/YawLabs/ai-pricing) | Community-maintained pricing data for AI infrastructure beyond the LLM layer. | [Docs](https://github.com/YawLabs/ai-pricing) |
-| [mcp-hosting-deploy](https://github.com/YawLabs/mcp-hosting-deploy) | Self-host mcp.hosting with Docker Compose, Helm, CloudFormation, or Terraform. | [Docs](https://github.com/YawLabs/mcp-hosting-deploy) |
+| [mcp-hosting-deploy](https://github.com/YawLabs/mcp-hosting-deploy) | Self-host mcp.hosting with Docker Compose, Helm, Fly.io, or Cloud Run. Team subscription required. | [Docs](https://github.com/YawLabs/mcp-hosting-deploy) |
 
 ---
 
