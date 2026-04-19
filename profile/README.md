@@ -12,8 +12,6 @@ Developer tools for the terminal, AI, and cloud infrastructure.
 
 **[Spend](https://spend.sh)** -- AI spend tracking, cost estimation, and provider comparison across 10+ providers. OpenAI-compatible gateway on the hot path, MCP-native on the reconciliation path ("list this month's usage," "fetch invoice," "get quota remaining"). Local MCP server, remote MCP, API gateway, and dashboard. Install with `npx @yawlabs/spend`.
 
-**[Vend](https://vend.sh)** -- License-key-native billing for builders. Usage metering, entitlement checks, and self-serve licensing for MCP servers, APIs, CLIs, and agents.
-
 ---
 
 ### Open Source
