@@ -8,7 +8,22 @@ Developer tools for the terminal, AI, and cloud infrastructure.
 
 **[Yaw Terminal](https://yaw.sh)** -- Cross-platform terminal emulator with built-in AI (9 providers), SSH/database connections (6 types), and a file editor. Free, zero telemetry.
 
+**[Claude Code Yaw Mode](https://yaw.sh/blog/claude-code-yaw-mode)** -- Per-session overlay that layers an opinionated bundle of rules, skills, and agents onto Claude Code without touching your `~/.claude/`. Two modes: **Augment** keeps your own config and adds ours on top; **Fresh** runs only the bundle. Ships inside Yaw Terminal -- toggle in Settings.
+
 **[mcp.hosting](https://mcp.hosting)** -- MCP is the USB-C for LLM tool use. One config in the cloud, syncs to every MCP client you use. Smart routing, an 88-test compliance grade on every server, and a free tier for up to 3 servers.
+
+---
+
+### Books -- The Yaw Labs Production Series
+
+Four books on the discipline of shipping AI tooling -- the work that separates "I built it" from "I run it in production." PDF + EPUB. Free updates.
+
+| Volume | Title | About |
+|--------|-------|-------|
+| I | [MCP in Production](https://yaw.sh/mcp-in-production/) | The practitioner's guide to building and running Model Context Protocol servers in production. Twelve chapters drawn from shipping fourteen `@yawlabs/*` servers -- protocol, transport, schema design, auth, error handling, testing, hosting, security, and four case studies. |
+| II | [Claude Code in Production](https://yaw.sh/claude-code-in-production/) | The power user's guide to shipping production software with Claude Code. Twelve chapters of operator-side discipline -- the CLAUDE.md contract, the harness, subagents, memory, capacity, scope, the seven hazards, and what survives across teams. |
+| III | [Semantic Search in Production](https://yaw.sh/semantic-search-in-production/) | The practitioner's guide to shipping retrieval after the v0. Twelve chapters on hybrid search, eval discipline, drift, and re-embedding -- the work nobody warned you about. |
+| IV | [A2A in Production](https://yaw.sh/a2a-in-production/) (early access) | The discipline guide to running multi-agent systems after the v0. Twelve chapters on orchestration, auth across agent boundaries, federated memory, and partial failure -- four readable today, eight as drafts complete. |
 
 ---
 
