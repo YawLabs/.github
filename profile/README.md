@@ -10,9 +10,15 @@ Developer tools for the terminal, AI, and cloud infrastructure.
 
 **[Yaw Terminal](https://yaw.sh)** -- Cross-platform terminal emulator with built-in AI (9 providers), SSH/database connections (6 types), and a file editor. Free, zero telemetry.
 
-**[Claude Code Yaw Mode](https://yaw.sh/blog/claude-code-yaw-mode)** -- Per-session overlay that layers an opinionated bundle of rules, skills, and agents onto Claude Code without touching your `~/.claude/`. Two modes: **Augment** keeps your own config and adds ours on top; **Fresh** runs only the bundle. Ships inside Yaw Terminal -- toggle in Settings.
+**[Yaw Mode](https://yaw.sh/blog/claude-code-yaw-mode)** -- Per-session overlay that layers an opinionated bundle of rules, skills, and agents onto Claude Code without touching your `~/.claude/`. Two modes: **Augment** keeps your own config and adds ours on top; **Fresh** runs only the bundle. Ships inside Yaw Terminal -- toggle in Settings.
 
-**[mcp.hosting](https://mcp.hosting)** -- MCP is the USB-C for LLM tool use. One config in the cloud, syncs to every MCP client you use. Smart routing, an 88-test compliance grade on every server, and a free tier for up to 3 servers.
+**[Yaw MCP](https://yaw.sh/mcp/)** -- MCP servers, managed locally. One CLI discovers, installs, and runs servers from a public catalog -- no account required. Smart routing, an 88-test compliance grade on every server, cross-machine bundle sync on Pro, and team-shared bundles on Yaw Team.
+
+**[Yaw Team](https://yaw.sh/team)** -- Per-seat plan for teams: shared SSH/database connections and MCP bundles, centralized admin, and a terminal your security team will actually approve -- no telemetry, bring-your-own-key AI.
+
+**[typed](https://typed.cloud)** -- An AI CLI with more token volume per dollar and cheaper top-ups for extra usage.
+
+**[vew](https://vew.sh)** -- A keyboard-first desktop browser with an agent built in -- it reads pages and clicks, types, and fills forms for you, locally and under your supervision.
 
 ---
 
@@ -33,7 +39,7 @@ Four books on the discipline of shipping AI tooling -- the work that separates "
 
 | Project | Description | Quick Start |
 |---------|-------------|-------------|
-| [mcph](https://github.com/YawLabs/mcph) | One install, all your MCP servers. The local agent for mcp.hosting — smart routing, auto-import, health-aware dispatch. | `npx @yawlabs/mcph install <claude-code\|claude-desktop\|cursor\|vscode>` |
+| [mcph](https://github.com/YawLabs/mcph) | One install, all your MCP servers. The local agent for Yaw MCP — smart routing, auto-import, health-aware dispatch. | `npx @yawlabs/mcph install <claude-code\|claude-desktop\|cursor\|vscode>` |
 | [mcp-compliance](https://github.com/YawLabs/mcp-compliance) | Test any MCP server for spec compliance. 88 tests across 8 categories, A-F grading, works against HTTP and stdio. | `npx @yawlabs/mcp-compliance` |
 | [ctxlint](https://github.com/YawLabs/ctxlint) | Lint AI context files (CLAUDE.md, AGENTS.md, .cursorrules) against your codebase. | `npx @yawlabs/ctxlint` |
 | [aws-mcp](https://github.com/YawLabs/aws-mcp) | AWS MCP server — fixes the SSO browser-spawn drop, generic CRUD over hundreds of resource types, sits next to AWS Labs' per-service servers. | `npx @yawlabs/aws-mcp` |
@@ -48,7 +54,7 @@ Four books on the discipline of shipping AI tooling -- the work that separates "
 | [electron-optimize](https://github.com/YawLabs/electron-optimize) | Drop-in optimization utilities for Electron apps. | `npm i @yawlabs/electron-optimize` |
 | [a2a-webhook-security](https://github.com/YawLabs/a2a-webhook-security) | A2A Webhook Security Profile (AWSP) — open spec plus reference implementations in TS, Python, Go, Java, and .NET. | [Spec + reference impls](https://github.com/YawLabs/a2a-webhook-security) |
 | [lemonsqueezy-webhook-sink](https://github.com/YawLabs/lemonsqueezy-webhook-sink) | Durable webhook sink for LemonSqueezy — HMAC verify, SQLite dedupe, pull-based reconciliation. | [Docs](https://github.com/YawLabs/lemonsqueezy-webhook-sink) |
-| [mcp-hosting-deploy](https://github.com/YawLabs/mcp-hosting-deploy) | Self-host mcp.hosting with Docker Compose, Helm, CloudFormation, or Terraform. Team subscription required. | [Docs](https://github.com/YawLabs/mcp-hosting-deploy) |
+| [mcp-hosting-deploy](https://github.com/YawLabs/mcp-hosting-deploy) | Self-host Yaw MCP with Docker Compose, Helm, CloudFormation, or Terraform. Team subscription required. | [Docs](https://github.com/YawLabs/mcp-hosting-deploy) |
 
 ---
 
