@@ -24,7 +24,7 @@ Developer tools for the terminal, AI, and cloud infrastructure.
 
 ### Books -- The Yaw Labs Production Series
 
-Four books on the discipline of shipping AI tooling -- the work that separates "I built it" from "I run it in production." PDF + EPUB. Free updates.
+Four books on the discipline of shipping AI tooling -- the work that separates "I built it" from "I run it in production." PDF + EPUB. Free with a Token Limit News signup.
 
 | Volume | Title | About |
 |--------|-------|-------|
