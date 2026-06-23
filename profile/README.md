@@ -39,7 +39,7 @@ Four books on the discipline of shipping AI tooling -- the work that separates "
 
 | Project | Description | Quick Start |
 |---------|-------------|-------------|
-| [mcp](https://github.com/YawLabs/mcp) | One install, all your MCP servers, managed. The orchestrator for Yaw MCP — smart routing, auto-import, health-aware dispatch, cross-machine sync. | `npx @yawlabs/mcp install <claude-code\|claude-desktop\|cursor\|vscode>` |
+| [mcp](https://github.com/YawLabs/mcp) | One install, all your MCP servers, managed. The orchestrator for Yaw MCP — smart routing, auto-import, health-aware dispatch. | `npx @yawlabs/mcp install <claude-code\|claude-desktop\|cursor\|vscode>` |
 | [mcp-compliance](https://github.com/YawLabs/mcp-compliance) | Test any MCP server for spec compliance. 88 tests across 8 categories, A-F grading, works against HTTP and stdio. | `npx @yawlabs/mcp-compliance` |
 | [ctxlint](https://github.com/YawLabs/ctxlint) | Lint AI context files (CLAUDE.md, AGENTS.md, .cursorrules) against your codebase. | `npx @yawlabs/ctxlint` |
 | [aws-mcp](https://github.com/YawLabs/aws-mcp) | AWS MCP server — fixes the SSO browser-spawn drop, generic CRUD over hundreds of resource types, sits next to AWS Labs' per-service servers. | `npx @yawlabs/aws-mcp` |
